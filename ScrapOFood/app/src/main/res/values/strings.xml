@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">ScrapOFood</string>
+    <string name="title_activity_main_groups">MainGroups</string>
 </resources>
