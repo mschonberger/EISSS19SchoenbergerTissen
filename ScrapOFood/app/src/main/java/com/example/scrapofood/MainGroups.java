@@ -1,13 +1,16 @@
 package com.example.scrapofood;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.example.scrapofood.Entities.Group;
 
@@ -35,14 +38,34 @@ public class MainGroups extends AppCompatActivity {
 
     private void updateListView() {
         ListView lvGroups = findViewById(R.id.lvGroups);
+
+        //Beispiel
         //MainActivity.myGroups.forEach((k)->System.out.println("bab"+ k + "test"));
 
 
         //MainActivity.myGroups.forEach((k)->lvGroups.add
 
+
+        lvGroups.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                //selected item
+                String selectedItem = (String)parent.getItemAtPosition(position);
+
+                Intent intent = new Intent(MainGroups.this, GroupContent.class);
+                intent.putExtra("GroupName", selectedItem);
+                //Testing
+                Toast.makeText(MainGroups.this, selectedItem, Toast.LENGTH_SHORT).show();
+
+
+                startActivity(intent);
+            }
+        });
+
+
         //add names to new ArrayList for usage
         ArrayList<String> groupNames = new ArrayList<>();
-        myGroups.forEach((g)-> groupNames.add(g.getName()));
+        myGroups.forEach((g) -> groupNames.add(g.getName()));
 
         //create adapter to list group names in listview
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, groupNames);

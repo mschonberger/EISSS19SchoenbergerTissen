@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
 
     private void addDummyDataForTesting() {
         //init groups
-        Group myHouse = new Group("MyHouse");
-        Group myStreet = new Group("MyStreet");
-        Group myFriends = new Group("MyFriends");
+        Group myHouse = new Group("House");
+        Group myStreet = new Group("Street");
+        Group myFriends = new Group("Friends");
 
         //add groups
         myGroups = new ArrayList<>();
@@ -70,7 +70,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 saveName();
-                startActivity(new Intent(MainActivity.this, MainGroups.class));
+                Intent next = new Intent(MainActivity.this, MainGroups.class);
+                startActivity(next);
             }
         });
 

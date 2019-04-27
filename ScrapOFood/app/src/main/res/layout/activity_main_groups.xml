@@ -32,15 +32,13 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ListView
-        android:layout_width="354dp"
-        android:layout_height="494dp"
+        android:id="@+id/lvGroups"
+        android:layout_width="347dp"
+        android:layout_height="451dp"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
-        android:id="@+id/lvGroups"
         app:layout_constraintBottom_toTopOf="@+id/btnHome"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

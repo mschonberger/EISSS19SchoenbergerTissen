@@ -12,6 +12,10 @@ public class FragmentUser extends Fragment {
 
     private View view;
 
+    public FragmentUser(){
+
+    }
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
