@@ -1,5 +1,7 @@
 package com.example.scrapofood.Entities;
 
+import java.util.List;
+
 public class User {
     public User(String user){
         name = user;
@@ -13,4 +15,10 @@ public class User {
     public String getPlace(){
         return place;
     }
+
+    private List<Food> offeredFood;
+    public List<Food> getFood() { return offeredFood; }
+
+    private List<Group> currentGroups;
+    public List<Group> getCurrentGroups(){ return currentGroups; }
 }
