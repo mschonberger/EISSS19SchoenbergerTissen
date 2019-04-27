@@ -36,15 +36,14 @@ public class MainGroups extends AppCompatActivity {
         loadName();
     }
 
+
     private void updateListView() {
         ListView lvGroups = findViewById(R.id.lvGroups);
 
         //Beispiel
         //MainActivity.myGroups.forEach((k)->System.out.println("bab"+ k + "test"));
 
-
         //MainActivity.myGroups.forEach((k)->lvGroups.add
-
 
         lvGroups.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -54,14 +53,14 @@ public class MainGroups extends AppCompatActivity {
 
                 Intent intent = new Intent(MainGroups.this, GroupContent.class);
                 intent.putExtra("GroupName", selectedItem);
+                intent.putExtra("GroupId", position);
+
                 //Testing
                 Toast.makeText(MainGroups.this, selectedItem, Toast.LENGTH_SHORT).show();
-
 
                 startActivity(intent);
             }
         });
-
 
         //add names to new ArrayList for usage
         ArrayList<String> groupNames = new ArrayList<>();

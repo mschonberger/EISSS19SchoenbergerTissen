@@ -47,15 +47,15 @@ public class MainActivity extends AppCompatActivity {
         myGroups.add(myStreet);//1
         myGroups.add(myFriends);//2
 
-        //add user to "myHouse" group
+        //add user to "House" group
         myGroups.get(0).addUser(new User("Gabi"));
         myGroups.get(0).addUser(new User("Kora"));
         myGroups.get(0).addUser(new User("Andre"));
 
-        //add user to "myStreet" group
+        //add user to "Street" group
         myGroups.get(1).addUser(new User("Arnold"));
 
-        //add user to "myFriends" group
+        //add user to "Friends" group
         myGroups.get(2).addUser(new User("Malte"));
         myGroups.get(2).addUser(new User("Ingrid"));
         myGroups.get(2).addUser(new User("Peter"));
