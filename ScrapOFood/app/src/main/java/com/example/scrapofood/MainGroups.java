@@ -4,11 +4,19 @@ import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.ListView;
 import android.widget.TextView;
+
+import com.example.scrapofood.Entities.Group;
+
+import java.util.ArrayList;
+import java.util.List;
 
 import static com.example.scrapofood.MainActivity.SAVED_NAME;
 import static com.example.scrapofood.MainActivity.SHARED_PREFS;
+import static com.example.scrapofood.MainActivity.myGroups;
 
 public class MainGroups extends AppCompatActivity {
     private String currentName;
@@ -18,9 +26,27 @@ public class MainGroups extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_groups);
 
+        updateListView();
+
         back();
 
         loadName();
+    }
+
+    private void updateListView() {
+        ListView lvGroups = findViewById(R.id.lvGroups);
+        //MainActivity.myGroups.forEach((k)->System.out.println("bab"+ k + "test"));
+
+
+        //MainActivity.myGroups.forEach((k)->lvGroups.add
+
+        //add names to new ArrayList for usage
+        ArrayList<String> groupNames = new ArrayList<>();
+        myGroups.forEach((g)-> groupNames.add(g.getName()));
+
+        //create adapter to list group names in listview
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, groupNames);
+        lvGroups.setAdapter(adapter);
     }
 
     //TODO: vllt irgendwann mal einen Helper dafür anlegen - hat die ersten Versuche nicht geklappt :(
@@ -29,7 +55,7 @@ public class MainGroups extends AppCompatActivity {
     private void loadName() {
         TextView tv = findViewById(R.id.tvWelcomeUser);
         SharedPreferences sp = getSharedPreferences(SHARED_PREFS, MODE_PRIVATE);
-        tv.setText("Willkommen zurück " + sp.getString(SAVED_NAME, ""));
+        tv.setText("Willkommen zurück " + sp.getString(SAVED_NAME, "NoNameSet"));
     }
 
     /* Brings the user back to the 'Main' screen */
