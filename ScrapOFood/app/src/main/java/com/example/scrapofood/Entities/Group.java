@@ -1,11 +1,23 @@
 package com.example.scrapofood.Entities;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Group {
-    public Group(){
+    public Group(String name) {
         Users = new ArrayList();
+        groupName = name;
     }
-    public List Users;
+
+    public void addUser(User u){
+        Users.add(u);
+    }
+
+    public ArrayList getUsers() {
+        return Users;
+    }
+
+    private ArrayList Users;
+
+    private String groupName;
+    public String getName(){ return groupName; }
 }

@@ -1,6 +1,11 @@
 package com.example.scrapofood.Entities;
 
 public class Food {
+
+    public Food(User u,String name){
+        owner = u;
+        Name = name;
+    }
     private User owner;
     public User getOwner(){
         return owner;
