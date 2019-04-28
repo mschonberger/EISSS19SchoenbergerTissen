@@ -8,11 +8,11 @@ Ebenfalls befinden sich hier der Projektplan und die Risikobeschreibung.
 
 **Konzept**
 
-Exposé, Zielhierarchie, Stakeholder, Erfordernisse, Anforderungen, Marktrecherche,  Alleinstellungsmerkmal, Kommunikationsmodelle, Methodischer Rahmen, Rapid Prototype
+Exposé, Zielhierarchie, Stakeholder, Erfordernisse, Anforderungen, Marktrecherche, Alleinstellungsmerkmal, Kommunikationsmodelle, Methodischer Rahmen
 
 **Präsentation**
 
-Präsentationsfolien, Moderationsnotizen
+Präsentationsfolien mit Moderationsnotizen, Präsentationsfolien
 
 ### 2. Iteration
 
@@ -23,7 +23,7 @@ wird ergänzt
 wird ergänzt
 
 ## Grafiken
-Hier befinden sich alle im Wiki genutzten Grafiken
+Hier befinden sich alle im Wiki genutzten Grafiken.
 
 ## ScrapOFood
-Hier befindet sich der Rapid Prototype
+Hier befindet sich der Rapid Prototype.
