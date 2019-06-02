@@ -16,7 +16,19 @@ Präsentationsfolien mit Moderationsnotizen, Präsentationsfolien
 
 ### 2. Iteration
 
-wird ergänzt
+Anwendungslogik, API-Analysen, Architektur, Beispielhafte Änderung am Prototyp, Datenmodellierung, Dokumentation der Proof of Concepts, Evaluation, Feature Sets, Finaler Prototyp, Persona, REST-Ressourcen, Spezifikation der Proof of Concepts, Spezifische Anforderungen, Spezifische Risiken, Szenarien, Use Cases, User Profils
+
+**Präsentation**
+
+Präsentationsfolien mit Moderationsnotizen, Präsentationsfolien
+
+**Proof of Concept**
+
+Hier liegt der Code und die Installationsanleitung für die Proof of Concepts
+
+**UI Prototype**
+
+Hier befinden sich die grafische Gestaltung für den Low Fidality und High Fidality Prototype
 
 ### 3. Iteration
 
