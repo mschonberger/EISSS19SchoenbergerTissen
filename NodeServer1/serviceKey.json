@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "scrapofood",
+  "private_key_id": "f3327f46d3176ad0644a4419816bc72233ca4983",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCS6ZZAJjuP4oGX\nQUJZa0mFOEL6J/TlB+cATFWNSjWd8Uh/V7E81YH546BY0Ul/9roCjXyB9sBT9R4W\nVe0Mw0zF3vOXJhtFHgshRTUehEqlzhxMsE0UFE00aF1u1a7rYo4MlgeyvMIWh4uM\nMNsKNgh8zDzcaUSYHBr8W4aB5VTM1B+h8xEeArlzYa2rLbUGhOhqaPP9tYnWJaLA\nckXGcWrU97ZwQBN/Ael26AoTfARIBsF1HgbyH71FksPBLUTCVSZcaM/S4miq3xcL\nqDoNcU/CCbDsTPsmGWzH5AtGVhPA90YRlJEBIu6Bsr8Ce/lY7Ujd1cFaoXcCMOMn\nuAXXUIkvAgMBAAECggEADn1KnAG+pslAiL90oMcWat+KqODJ+XtsYA4nSJZvb/1n\nw2TNuTdBk3jMzBW6zwvG0BD48lnOIY8FAaTwipgJzrYs23/JpBPQ0Ijih/j6N8d6\nk7cLqGr8K6q4vwFaOCLx6ZyJHoAZZbQb956rQSLlIWcvVXnDEdGBI9nkYT6nZ3Aa\nIn90foSvc+mmVzBhT0/soZF1XiJYZSz3LRUvSXK6NfJBUuqUDhGEJWyQ6AL3Rjm8\nu9psbCXM/YGl6yjjDpWLZzv8J90J0iynVEcU8EPnMObccLEJAeasA2XQW1t1q9Oq\ns71L89RYfJ5Gavh3QLq/6dcbRasz1516GG8VzzrDmQKBgQDHziQ/UKoFyiE+nbE1\nV2PR0M4dSduTIP5Wc0n57I5LxyRhYyWAM88Myk5z10QJt8qdvyMtj4Zk6LGd7iCh\nVwkUZoxXeF01GVBdylcIb7dSSZy7MP6lhVNo9H0jcWUT68iixFmkw42CxVJkjLeJ\n00JOYnU+vpEl2orbXSznKvRaCwKBgQC8OzIgE+4z0NBkPyMMdL2gbC+4XgX8D2oc\n1pozo9ZvOr8mHHzucO8MS9PVjjiqyhKKpl5vI6SdPRp3mu90Dt9diZODfSeZOpBd\n/hAm9ijokPCOnYekoZ4wGkAxn8wjYzjqHURwwdsdaOjY8Ey5Z+/XTTjVb0bmdqnA\nbLkNmpSn7QKBgBHf8EA10DAaaCT46IyUF9sCah4WqG0eK4LCZ6DTN9uxoiCQRR+W\nAvTq+F/Gp1CTP64jFluSFnzakGFHl2W3qplHn1CH9Ra2AAmT+3tGu0jCSyI3/OAD\n8HVYQgW0tE0278kX9ckWsYc8beWO7TCIVMs8Za7KT6PqTDfZuxWnMxsHAoGBAJR1\n9AEM9zFzHwoSKiim4vFmovS9Y+b8mWsJcDIOpRCxuxXqHjdKZ6DBJeEn/VXnb1xf\n/9eUuz8xdHCliPt2x4HVAr4QtmzKnhckTcUNHhLgTnuNj/CvcD7sVXlOWgoHNlqg\nntx4acP2fMCuNzV83tRnmc3tqHQZX6Xfms06AMm5AoGAGr+hBundd5j6QHpCC+Vi\n7iV6bASzX4o2Cyo5oW2MVHK98TlMdQokwPH65C5zCVOiw9CYl+Oauoe90MLz+F0q\nXJM3IXmOtXjyGzqFA/7zII24aJFbRjSztA0Or2skNr7vDD04c3E23azf8ZpWnpy8\nMUDOOBuuldQc151BJOHJoyg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-51fmm@scrapofood.iam.gserviceaccount.com",
+  "client_id": "102741209845241554111",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-51fmm%40scrapofood.iam.gserviceaccount.com"
+}

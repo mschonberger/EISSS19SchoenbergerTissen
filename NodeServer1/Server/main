@@ -1,0 +1,123 @@
+#!/usr/bin/env node
+
+let net = require('net');
+
+//~~~~~~~~~~~~~~~~~~~~~FIREBASE INIT~~~~~~~~~~~~~~~~~~~~~
+const admin = require('firebase-admin');
+const functions = require("firebase-functions");
+const serviceAccount = require("../serviceKey.json");
+
+admin.initializeApp({
+    credential: admin.credential.cert(serviceAccount),
+    databaseURL: "https://scrapofood.firebaseio.com"
+});
+
+//~~~~~~~~~~~~~~~~~~~~~FIREBASE INIT END~~~~~~~~~~~~~~~~~
+callWeatherMap();
+
+//~~~~~~~~~~~~~~~~~~~~~FIRESTORE ADD USER~~~~~~~~~~~~~~~~~~~~~
+//let db = admin.database();//realtime Database
+
+/*
+let db = admin.firestore();
+let docref = db.collection('userCol').doc(getIdInCollection('userCol'));
+
+function addUser(ref,[]) {
+    ref.set({
+        name: [0],
+        email: [1],
+
+    })
+}
+let setArthur = docref.set({
+    name: 'Arthur T',
+    email: "any1@mail.com",
+    adress1: "An der Delle 7",
+    adress2: "12345",
+    adress3: "Gummersbach"
+    }
+).then(function () {
+    console.log("user added");
+}).catch(function (error) {
+    console.log("Error occured");
+});
+*/
+//~~~~~~~~~~~~~~~~~~~~~FIREBASE ADD USER~~~~~~~~~~~~~~~~~~~~~
+
+
+
+
+//~~~~~~~~~~~~~~~~~~~~~FUNCTIONS~~~~~~~~~~~~~~~~~~~~~
+
+//generate random ID
+function getIdInCollection(collectionName) {
+    let ref = db.collection(collectionName).doc();
+    let id = ref.id;
+    return id;
+}
+
+function callWeatherMap() {
+
+
+}
+
+//realtime Database
+/*
+let userColRef = ref.child('userCol');
+userColRef.set({
+    1: {
+        userID: "1",
+        name: "Arthur T",
+        email: "any1@mail.com",
+        adress1: "An der Delle 7",
+        adress2: "12345",
+        adress3: "Gummersbach"
+    },
+    2: {
+        userID: "2",
+        userName: "Malte S",
+        email: "any1@mail.com",
+        adress1: "Kleiner Weg 5",
+        adress2: "12345",
+        adress3: "Gummersbach"
+    },
+    3: {
+        userID: "3",
+        userName: "Jemand A",
+        email: "any1@mail.com",
+        adress1: "Kleiner Weg 10",
+        adress2: "12345",
+        adress3: "Gummersbach"
+    }
+});
+*/
+
+
+// stores all logged in users
+let clients = [];
+
+let server = net.createServer(function(socket) {
+    clients.push(socket);//stores the connecting client
+
+    //socket.write('THIS came from the server.\r\n');
+
+    //client connected
+    console.log(socket.remoteAddress + ' just connected.');
+
+    socket.on('error',(err => {
+        throw err;
+    }))
+    socket.on('data',(buffer)=>{
+        console.log(buffer);
+    })
+    socket.on('close',() => {
+        console.log(socket.remoteAddress + ' just disconnected.');
+    })
+
+    //redirects everything back to the socket
+    //socket.pipe(socket); //
+}).listen(1337,'127.0.0.1');
+
+server.on('error',(err => {
+    throw err;
+}));
