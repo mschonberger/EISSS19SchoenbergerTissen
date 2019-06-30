@@ -1,0 +1,22 @@
+{
+  "meals": [{
+    "idMeal": "",
+    "idUser": "",
+    "idGroup": "",
+    "strPublic": "",
+    "strMeal": "",
+    "strDescription": "",
+    "strLongitude":"",
+    "strAdDate":"",
+    "strLatitude":"",
+    "strMealThumb": "",
+    "strCategory": "",
+    "strStoring": "",
+    "strCondition": "",
+    "strMHD": "",
+    "strStoringRating": "",
+    "strConditionRating": "",
+    "strGeneralRating": "",
+    "strDeletePost": ""
+    }]
+}

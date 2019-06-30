@@ -1,0 +1,20 @@
+{
+  "group": [{
+    "groupID": "",
+    "groupName": "",
+    "users": [{
+        "userID": ""
+      },
+      {
+        "userID": ""
+      },
+    ],
+    "ad": [{
+        "foodID": ""
+      },
+      {
+        "foodID": ""
+      },
+    ]
+  }]
+}

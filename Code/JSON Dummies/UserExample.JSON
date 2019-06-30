@@ -1,0 +1,29 @@
+{
+  "user": [{
+    "userID": "",
+    "password": "",
+
+    "contact": {
+      "mail": "",
+      "phone": ""
+    },
+
+    "adress": [{
+      "firstName": "",
+      "lastName": "",
+      "streetName": "",
+      "number": "",
+      "additionals": "",
+      "city": "",
+      "zipcode": ""
+    }],
+
+    "ads": [{
+      "adID": ""
+    }],
+
+    "groups": [{
+      "groupID": ""
+    }],
+  }]
+}

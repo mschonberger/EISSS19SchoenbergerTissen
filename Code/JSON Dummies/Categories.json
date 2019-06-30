@@ -1,0 +1,71 @@
+{
+  "categories": [{
+    "idCategory": "1",
+    "strCategory": "Getränke",
+    "strCategoryThumb": "",
+    "strCategoryDescription": "Je nach Getränkesorte variiert auch die Haltbarkeit, die bei Wein oder bestimmten Alkoholsorten durch eine optimierte Lagerung sogar verlängert werden kann.
+    In vielen Fällen sind Getränke nach Ablauf des Mindesthaltbarkeitsdatums auch weiterhin genießbar, jedoch sollte der Verbraucher die Produkte stets auf Geruch, Aussehen und Geschmack prüfen."
+    }, {
+    "idCategory": "2",
+    "strCategory": "Nudeln",
+    "strCategoryThumb": "",
+    "strCategoryDescription": "Harte, getrocknete Nudeln sind auch lange nach Ablauf des MHD noch genießbar. AUSNAHME: Eiernudeln sollte man nach dem abgelaufenem Mindeshaltbarkeitsdatum nicht mehr verwenden! Frische Pastanudeln halten bei Lagerung im Kühlschrank 3 bis 4 Wochen.
+    Die meisten Getreideprodukte sind nach Ablauf des Mindesthaltbarkeitsdatums weiterhin genießbar.
+    Durch eine geeignete Lagerung kann deren Haltbarkeit sogar noch verlängert werden. In der Regel gilt jedoch, dass sämtliche Getreideerzeugnisse nach längerem Ablauf des MHD zunächst auf Optik, Geruch und Schimmelbefall sowie folgend auf ihren Geschmack geprüft werden sollten."
+    }, {
+    "idCategory": "3",
+    "strCategory": "Backwaren",
+    "strCategoryThumb": "",
+    "strCategoryDescription": "Die Haltbarkeitsdauer von Brot muss der Verbraucher in Bezug auf zwei verschiedene „Arten“ des Lebensmittels betrachten. Einerseits die abgepackte Ware aus industrieller Herstellung, andererseits das frische Brot vom Bäcker.
+    Klar ist, dass das Bäckerbrot, das ohne Aufdruck eines Mindesthaltbarkeitsdatums verkauft werden darf, schneller verdirbt als industriell gefertigte Backwaren. Dennoch kann man die Haltbarkeit mit einer wohl überdachten Aufbewahrung positiv beeinflussen.
+    Durch eingesetzten Enzyme ist das industriell hergestellte Brot bis zu 8 Wochen haltbar, bei frischem Brot vom Bäcker ist drauf zu achten welche Sorte gekauft wurde. Allgemein ist eine Haltbarkeit von 3-5 Tagen einplanbar.
+    "
+    }, {
+    "idCategory": "4",
+    "strCategory": "Fleischwaren",
+    "strCategoryThumb": "",
+    "strCategoryDescription": "Frisches Fleisch sollte schnell nach dem Einkauf weiterverarbeitet werden, und auch dann recht zügig konsumiert werden."
+    }, {
+    "idCategory": "5",
+    "strCategory": "Obst",
+    "strCategoryThumb": "",
+    "strCategoryDescription": "Frisches Obst gehört zu den schnell verderblichen Lebensmitteln und weist aus diesem Grund auch eine geringe Haltbarkeit auf. Laut §7 des LMKV sind derartige Produkte von der Kennzeichnung mit Mindesthaltbarkeitsdatum ausgenommen.
+    Äpfel sollten getrennt von anderen Gemüse- und Obstsorten gelagert werden (setzen Pflanzenhormon Ethylen frei und beschleunigen den Reifungsprozess)"
+    }, {
+    "idCategory": "6",
+    "strCategory": "Gemüse",
+    "strCategoryThumb": "",
+    "strCategoryDescription": "Frisches Gemüse gehört zu den schnell verderblichen Lebensmitteln und weist aus diesem Grund auch eine geringe Haltbarkeit auf. Laut §7 des LMKV sind derartige Produkte von der Kennzeichnung mit Mindesthaltbarkeitsdatum ausgenommen.
+    Tomaten sollten getrennt von anderen Gemüse- und Obstsorten gelagert werden (setzen Pflanzenhormon Ethylen frei und beschleunigen den Reifungsprozess)"
+    }, {
+    "idCategory": "7",
+    "strCategory": "Gekochte Mahlzeiten",
+    "strCategoryThumb": "",
+    "strCategoryDescription": "Gekochte Mahlzeiten sind in der Regel nicht lange haltbar und sollten nach Anfertigung zügig konsumiert werden."
+    }, {
+    "idCategory": "8",
+    "strCategory": "Snacks",
+    "strCategoryThumb": "",
+    "strCategoryDescription": ""
+    }, {
+    "idCategory": "9",
+    "strCategory": "Süßigkeiten",
+    "strCategoryThumb": "",
+    "strCategoryDescription": ""
+    }, {
+    "idCategory": "10",
+    "strCategory": "Milchprodukte",
+    "strCategoryThumb": "",
+    "strCategoryDescription": "Die Haltbarkeit von Milch und Milchprodukten in ungeöffneten Verpackungen ist im Großteil der Fälle auf nach abgelaufenem Mindesthaltbarkeitsdatum gegeben. Vorsicht geboten ist jedoch bei derartigen Lebensmitteln in angebrochenen Verpackungen, Milch kann schnell sauer und Butter ranzig werden, Käse austrocknen."
+    }, {
+    "idCategory": "11",
+    "strCategory": "Gewürze",
+    "strCategoryThumb": "",
+    "strCategoryDescription": ""
+    }, {
+    "idCategory": "12",
+    "strCategory": "Sonstiges",
+    "strCategoryThumb": "",
+    "strCategoryDescription": ""
+  }]
+}
