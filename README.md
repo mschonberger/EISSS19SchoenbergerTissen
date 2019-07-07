@@ -32,10 +32,20 @@ Hier befinden sich die grafische Gestaltung für den Low Fidality und High Fidal
 
 ### 3. Iteration
 
-wird ergänzt
+Fazit, Prozessassessement
+
+**Code**
+
+Server und Client Code
+
+**Präsentation**
+Präsentationsfolien mit Moderationsnotizen, Präsentationsfolien
 
 ## Grafiken
 Hier befinden sich alle im Wiki genutzten Grafiken.
 
 ## ScrapOFood
-Hier befindet sich der Rapid Prototype.
+Hier befindet sich der veraltete Prototype.
+
+## Code
+Hier befinden sich alle Codes die zum Testen von Funktionen für den vertikalen Prototypen genutzt wurden
