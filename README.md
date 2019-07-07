@@ -32,7 +32,7 @@ Hier befinden sich die grafische Gestaltung für den Low Fidality und High Fidal
 
 ### 3. Iteration
 
-Fazit, Prozessassessement
+Fazit, Prozessassessement, Plakat in pdf und png
 
 **Code**
 
