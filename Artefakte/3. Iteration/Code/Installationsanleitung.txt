@@ -1,0 +1,26 @@
+
+   _____                             ____         ______              _ 
+  / ____|                           / __ \       |  ____|            | |
+ | (___   ___ _ __ __ _ _ __ ______| |  | |______| |__ ___   ___   __| |
+  \___ \ / __| '__/ _` | '_ \______| |  | |______|  __/ _ \ / _ \ / _` |
+  ____) | (__| | | (_| | |_) |     | |__| |      | | | (_) | (_) | (_| |
+ |_____/ \___|_|  \__,_| .__/       \____/       |_|  \___/ \___/ \__,_|
+                       | |                                              
+                       |_|                                              
+
+Installationsanleitung
+
+-------------------
+Server
+-------------------
+
+"npm install" ausführen um nötigen Modules zu installieren
+In "Server.js" die IP Adresse umschreiben, auf die vom Gerät genutzte IPv4
+Server starten mittels "node server.js"
+
+-------------------
+Client
+-------------------
+
+In "Java/com.example.scrap_o_food/api/FoodClient" die IP Adresse unter BASE_URL ändern
+In "Java/com.example.scrap_o_food/view/create/CreateClient" ebenfalls
